@@ -45,11 +45,27 @@ for($i=1;$i<$n;$i++){
    }
 }
 if($counter<=1){
-   echo $n." is a perfect number ";
+   echo $n." is a perfect number "."<br>";
 }
 else{
-   echo $n. " is not a perfect number";
+   echo $n. " is not a perfect number"."<br>";
 }
+//#4
+unset($num);
+$num = 1234;
+echo strrev($num)."<br>";
+//#5
+$name = "Soroush";
+echo strrev($name)."<br>";
+//#6
+unset($num);
+$a=3;
+$b = 4;
+$t = $a;
+$a=$b;
+$b=$t;
+echo $a.",".$b."<br>";
+
 ?>
 </body>
 
