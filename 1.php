@@ -13,6 +13,8 @@
 
 <body>
 <?php
+//#1
+echo "جمع ارقام:"."<br>";
    $num=60;
    $sum = 0;
    $numLength= strlen((string)$num);
@@ -22,7 +24,18 @@
       $num /=10;
       
    }
-   echo $sum; 
+   echo $sum."<br>"; 
+//#2
+echo "زوج یا فرد بودن :"."<br>";
+   $num =25;
+   if($num%2==0){
+      echo "It's even"."<br>";
+   }
+   else{
+      echo "It's odd"."<br>";
+   }
+//#3
+
 ?>
 </body>
 
